@@ -62,8 +62,6 @@ void CMd1View::OnDraw(CDC* pDC)
 
 	// TODO: 여기에 원시 데이터에 대한 그리기 코드를 추가합니다.
 	int n = pDoc->m_oa.GetSize();
-
-	// Test
 	for (int i = 0; i < n; i++) {
 		CLine* p;
 		p = (CLine *)pDoc->m_oa[i];
